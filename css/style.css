@@ -29,11 +29,12 @@ body {
 
 #card-front,
 #card-inside {
-    width: 80%;
+    height: 900px;
+    width: 450px;
     -webkit-box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.25), 0 0 1px rgba(0, 0, 0, 0.5);
     box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.25), 0 0 1px rgba(0, 0, 0, 0.5);
     position: absolute;
-    left: 28%;
+    left: 50%;
 }
 
 #card-inside .wrap {
@@ -43,7 +44,7 @@ body {
 }
 
 #card {
-    width: 700;
+    width: 960px;
     margin: auto;
     -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
